@@ -1,10 +1,11 @@
 import React from 'react';
+import Banner from './Banner';
 import '../Css/Home.css'
 
 export default function Home() {
     return (
         <div className='home'>
-            <h2>home component</h2>
+            <Banner />
         </div>
     )
 }
